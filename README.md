@@ -12,7 +12,7 @@ Successfully built <container-id>
 $ docker run -p 5000:5000 -d --rm <your-name>/cds-service-example-csharp
 ```
 
-Alternatively, you ran directly on your box with `dnx`.
+Alternatively, you run directly on your box with `dnx`.
 
 ```base
 $ dnu restore
