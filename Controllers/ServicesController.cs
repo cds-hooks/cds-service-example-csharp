@@ -9,7 +9,7 @@ namespace org.cdshooks.example.Controllers
     public class ServicesController : Controller
     {
 
-        [HttpGet("/.well-known/cds-services")]
+        [HttpGet("/cds-services")]
         public ActionResult Discovery()
         {
             var services = new Dictionary<string, IList<Service>>
